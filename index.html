@@ -5,7 +5,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
 		<link rel="stylesheet" href="landing.css">
+		
 		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:600" rel="stylesheet">
+		
 	</head>
 	<body>
 		<div class="container">
@@ -18,7 +20,7 @@
 						<h1 id="title">Sentiment Analysis</h1>
 					</div>	
 					<div class="col-xs-12">
-						<form method="post" action="cases.html">
+						<form name="sign-in" method="post" action="cases.html" onsubmit="return required()">
 							<input type="text" name="microsoft-id" placeholder="Microsoft ID">
 							<br>
 							<br>
@@ -33,6 +35,6 @@
 				</div>
 			</div>
 		</div>
-		
+		<script type="text/javascript" src="form-check.js"></script>
 	</body>
 </html>

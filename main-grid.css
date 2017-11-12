@@ -1,7 +1,11 @@
 html, body{
 	padding: 0;
 	margin: 0;
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 200;
+	color: #737373;
 }
+
 
 #profile-right{
 	position: fixed;
@@ -11,7 +15,7 @@ html, body{
 	background-color: royalblue;
 }
 
-#sign-out, #sign-out a{
+#sign-out, #sign-out a, #back-link, #back-link a{
 	margin-bottom: 0px;
 	width: 100%;
 	text-align: center;
@@ -24,12 +28,16 @@ html, body{
 	padding: 0;
 }
 
-.col-xs-12, .content-block{
+.content-block{
 	border-bottom: 2px solid #ccc;
 	height: 30vh;
 	padding: 15px;
 	margin: 0;
 	width: 100%;
+}
+
+.single-call{
+	height: 100vh;
 }
 .content-block{
 	padding: 0;
@@ -40,7 +48,7 @@ html, body{
 }
 
 .content-info{
-	border: 1px dotted pink;
+	
 	height: 100%;
 }
 
@@ -86,4 +94,32 @@ html, body{
 	content: "!";
 	width: 100%;
 	color: white;
+}
+
+.content-block-titles{
+	widows: 100%;
+	height: auto;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+.case-title img{
+	float: left;
+	padding: 20px;
+	
+	display: inline-block;
+}
+.case-title, .case-title h2{
+	padding: 0;
+	font-size: 2vw;
+}
+
+.content-block-call{
+	padding: 2%;
+}
+
+.duration{
+	padding-left: 10%;
 }
