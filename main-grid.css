@@ -15,7 +15,7 @@ html, body{
 	background-color: royalblue;
 }
 
-#sign-out, #sign-out a, #back-link, #back-link a{
+#sign-out, #sign-out a, #back-link, #back-link a, #upload-call, #upload-call a{
 	margin-bottom: 0px;
 	width: 100%;
 	text-align: center;
