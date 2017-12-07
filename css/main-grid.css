@@ -1,0 +1,129 @@
+html, body{
+	padding: 0;
+	margin: 0;
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 200;
+	color: #737373;
+}
+
+
+#profile-right{
+	position: fixed;
+	right: 0;
+	top: 0;
+	height: 100vh;
+	background-color: royalblue;
+}
+
+#sign-out, #sign-out a, #back-link, #back-link a, #upload-call, #upload-call a{
+	margin-bottom: 0px;
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+#content-left{
+	height: auto;
+	min-height: 100vh;
+	background-color: white;
+	padding: 0;
+}
+
+.content-block{
+	border-bottom: 2px solid #ccc;
+	height: 30vh;
+	padding: 15px;
+	margin: 0;
+	width: 100%;
+}
+
+.single-call{
+	height: 100vh;
+}
+.content-block{
+	padding: 0;
+}
+
+.content-block-wrapper-inner{
+	height: 100%;
+}
+
+.content-info{
+	
+	height: 100%;
+}
+
+.sentiment-indicator{
+	height: 100%;
+}
+
+#profile-image{
+	width: 100%;
+	padding: 27.5%;
+	
+}
+#sentiment-scale{
+	width: 100%;
+	padding: 10%;
+	
+}
+.good{
+	text-align: center;
+	background-color: #3aba34;
+}
+.good h1:before{
+	content: "\002714";
+	color: white;
+	width: 100%;
+	
+}
+
+
+.neutral{
+	text-align: center;
+	background-color: orange;
+}
+
+.neutral h1:before{
+	content: "\2022";
+	width: 100%;
+	color: white;
+}
+
+.bad{
+	text-align: center;
+	background-color: darkred;
+}
+
+.bad h1:before{
+	content: "!";
+	width: 100%;
+	color: white;
+}
+
+.content-block-titles{
+	widows: 100%;
+	height: auto;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+.case-title img{
+	float: left;
+	padding: 20px;
+	
+	display: inline-block;
+}
+.case-title, .case-title h2{
+	padding: 0;
+	font-size: 2vw;
+}
+
+.content-block-call{
+	padding: 2%;
+}
+
+.duration{
+	padding-left: 10%;
+}
